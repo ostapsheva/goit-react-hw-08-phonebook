@@ -75,7 +75,7 @@ class RegisterView extends Component {
           </button>
           <p>
             If you have an account, please{' '}
-            <NavLink to={routes.login}>login</NavLink>.
+            <NavLink to={routes.login}>log in</NavLink>.
           </p>
         </form>
       </>

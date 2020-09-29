@@ -9,7 +9,7 @@ export const RegistLoginLinks = () => {
       <NavLink exact activeClassName={styles.active} to={routes.login}>
         Log in
       </NavLink>
-      <span className={styles.span}>/</span>
+      <span className={styles.span}>|</span>
       <NavLink exact activeClassName={styles.active} to={routes.register}>
         Sign up
       </NavLink>
